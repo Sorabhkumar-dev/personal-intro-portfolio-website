@@ -1,0 +1,38 @@
+.logo_heading{
+    font-size: 1.5em;
+    margin: 0%;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+h2 .logo_color_primary{
+    color: limegreen;
+}
+
+h2 .logo_color_secondory{
+    color: rgb(11, 149, 203);
+}
+
+.nav_container{
+    display: flex;
+    align-items: center;
+}
+ 
+
+.nav_item_container .nav_item{
+    list-style-type: none;
+    display: inline;
+    padding-right: 2em;
+}
+
+.nav_item_container .nav_item .link{
+    text-decoration: none;
+    color: limegreen;
+    font-weight: 400;
+}
+
+.nav_item_container .nav_item .link:hover{
+    text-decoration: none;
+    color: rgb(11, 149, 203);
+    font-weight: 400;
+}

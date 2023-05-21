@@ -1,0 +1,24 @@
+.home_top_heading_container{
+    margin: 0.6em auto;
+    text-align: center;
+}
+
+.faster_tag_line{
+    font-style: italic;
+    display: inline;
+    border-bottom: 0.125em solid limegreen;
+    padding-bottom: 0.2em;
+}
+
+.faster_tag_line .logo_color_primary{
+    color: limegreen;
+}
+
+.faster_tag_line .logo_color_secondory{
+    color: rgb(11, 149, 203);
+}
+
+.faster_tag_line{
+    color:  rgb(11, 149, 203);
+    font-weight: 600;
+}

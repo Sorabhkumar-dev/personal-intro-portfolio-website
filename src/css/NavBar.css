@@ -15,14 +15,24 @@ h2 .logo_color_secondory{
 
 .nav_container{
     display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: white;
     align-items: center;
+    padding-left:0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    box-shadow: 0.5em 0.1em 0.5em 0.1em rgb(215, 213, 213);
 }
- 
+
+.nav_item_container{
+    padding-left: 4em;
+}
 
 .nav_item_container .nav_item{
     list-style-type: none;
     display: inline;
-    padding-right: 2em;
+    padding-right: 4em;
 }
 
 .nav_item_container .nav_item .link{
@@ -35,4 +45,16 @@ h2 .logo_color_secondory{
     text-decoration: none;
     color: rgb(11, 149, 203);
     font-weight: 400;
+}
+
+.home_link{
+    text-decoration: none;
+}
+
+.home_link .logo_color_secondory:hover{
+    color: limegreen;
+}
+
+.home_link .logo_color_primary:hover{
+    color: rgb(11, 149, 203)
 }

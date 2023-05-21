@@ -1,0 +1,16 @@
+.intro_conatiner{
+    margin: 0.6em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_description{
+    margin-top: 1.5em;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: 0.1;
+    word-spacing: 0.3em;
+}

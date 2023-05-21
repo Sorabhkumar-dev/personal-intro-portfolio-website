@@ -1,0 +1,15 @@
+.middle_content_Content{
+    margin-top: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.journey_content{
+    text-align: justify;
+    font-weight: 400;
+    margin-top: 1.5em;
+    letter-spacing: 0.1;
+    word-spacing: 0.3em;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}

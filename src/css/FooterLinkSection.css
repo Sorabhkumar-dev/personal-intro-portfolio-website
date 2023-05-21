@@ -1,0 +1,28 @@
+.footer_link_heading{
+    color: limegreen;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.footer_link_container .footer_links{
+    margin-top: 0.8em;
+    padding-bottom: 3em;
+}
+
+.footer_link_container .footer_links .footer_link{
+    list-style: none;
+}
+
+.footer_link_container .footer_links .footer_link .footer_nav_link{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 400;
+    color: rgb(11, 149, 203);
+}
+
+.footer_link_container .footer_links .footer_link .footer_nav_link:hover{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 400;
+    color: limegreen;
+}

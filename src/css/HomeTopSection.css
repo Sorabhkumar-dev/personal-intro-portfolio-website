@@ -1,0 +1,8 @@
+.home_top_section_container{
+    margin-top: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    display: flex;
+    align-items: start;
+    gap: 5%;
+}

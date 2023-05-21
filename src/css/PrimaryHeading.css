@@ -1,0 +1,18 @@
+.primary_heading_container{
+    margin: 0.6em auto;
+    text-align: center;
+}
+
+.primary_heading_container .primary_heading{
+    font-style: italic;
+    display: inline;
+}
+
+.primary_heading_container .primary_heading .primary_heading_text{
+    color: limegreen;
+    display: inline;
+}
+
+.primary_heading_container .primary_heading .secondory_heading_text{
+    color: rgb(11, 149, 203);
+}

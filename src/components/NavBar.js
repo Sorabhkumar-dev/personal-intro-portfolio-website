@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export default function NavBar() {
   return (
     <nav className="nav_container">
-      <NavLink to="/">
+      <NavLink to="/" className="home_link">
         <h2 className="logo_heading">
           <span className="logo_color_primary">Faster </span>
           <span className="logo_color_secondory">Corp</span>

@@ -1,0 +1,13 @@
+.profile_image_container{
+box-shadow: 0.5em 0.5em 0.5em 0.1em rgb(11, 149, 203);
+width: 18em;
+height: 18em;
+border-radius: 18em;
+}
+
+.profile_image{
+    width: 18em;
+    height: 18em;
+    border-radius: 18em;
+    object-fit: cover;
+}

@@ -1,0 +1,35 @@
+.home_footer_container{
+    box-shadow: -1em 1em 1em 1em rgb(215, 213, 213);
+    margin-top: 5em;
+
+}
+
+.footer_top_section{
+    display: flex;
+    padding-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+    justify-content: center;
+    gap: 21em;
+
+}
+
+.social_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+    
+}
+
+.logo{
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.footer_link_section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5em;
+    margin-left: 4em;
+    margin-right: 4em;
+}

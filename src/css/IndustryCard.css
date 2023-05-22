@@ -1,0 +1,15 @@
+.industry_icon {
+  width: 60%;
+  margin: auto;
+  margin-top: 3em;
+}
+
+.industry_card_container{
+    flex-basis: 30%;
+}
+
+.industry_name {
+  margin-top: 0.5em;
+  color: #0b9fcb;
+  margin-left: 2em;
+}

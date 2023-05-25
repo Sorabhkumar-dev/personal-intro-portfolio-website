@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About";
-import Skills from "./components/Skills";
+import Services from "./components/Services";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 
@@ -17,7 +17,7 @@ root.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/About" element={<About />} />
-      <Route path="/skills" element={<Skills />} />
+      <Route path="/services" element={<Services />} />
       <Route path="/education" element={<Education />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>

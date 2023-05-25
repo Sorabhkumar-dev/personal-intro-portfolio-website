@@ -20,8 +20,8 @@ export default function NavBar() {
         </li>
         <li className="nav_item">
           {" "}
-          <NavLink to="skills" className="link">
-            Skills
+          <NavLink to="services" className="link">
+            Services
           </NavLink>
         </li>
         <li className="nav_item">

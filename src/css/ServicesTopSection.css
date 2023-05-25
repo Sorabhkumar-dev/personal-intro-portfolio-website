@@ -1,0 +1,14 @@
+.services_top_section_conatainer {
+  background-color: rgb(11, 149, 203, 0.05);
+  padding-top: 2%;
+}
+
+.services_top_para {
+  margin-left: 4em;
+  margin-right: 4em;
+  word-spacing: 0.3em;
+  letter-spacing: 0.09em;
+  text-align: justify;
+  padding-bottom: 3%;
+  padding-top: 1%;
+}

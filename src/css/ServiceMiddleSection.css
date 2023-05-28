@@ -1,16 +1,18 @@
 .industry_card_container{
-    margin-left: 4em;
-    margin-right: 4em;
     display: flex;
     overflow-x: scroll;
-    gap: 3em;
-    flex-basis: 20em;
+    gap: 2em;
+    margin-bottom: 2em;
+    margin-top: 2m;
 }
 
+::-webkit-scrollbar{
+    display: none; 
+}
 
 .services_middle_container{
     text-align: center;
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 .services_middle_title{

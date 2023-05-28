@@ -1,14 +1,21 @@
 .service_middle_card_container{
     box-shadow: 0.5em 0.5em 1em 0.1em rgb(215, 213, 213);
     border-radius: 0.9em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 2em;
+    border: 1px solid gray;
 }
 
 .service_icon{
-    width: 10em;
-    margin-top: 1em;
+    width: 8em;
+    height: 12em;
+    margin-top: 2em;
 }
 
 .service_middle_card_title{
+    width: 18em;
+    margin-top: 0.2em;
     color: rgb(11, 149, 203);
 }
 
@@ -18,5 +25,6 @@
     text-align: center;
     margin-right: 0.5em;
     margin-left: 0.5em;
+    margin-top: 0.5em;
     padding-bottom: 1em;
 }

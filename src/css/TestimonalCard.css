@@ -1,0 +1,16 @@
+.testimonal_card_conatiner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.testimonal_image{
+    width: 5em;
+    height: 5em;
+}
+
+.testmonal_name{
+    margin-top: 0.8em;
+    font-size: 1.2em;
+    color: #0b9fcb;
+}

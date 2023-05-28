@@ -1,14 +1,18 @@
 .industry_icon {
-  width: 60%;
+  width: 10em;
+  height: 10em;
   margin-top: 3em;
 }
 
 .service_industry_card_container{
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .industry_name {
-  margin-top: 0.5em;
+  margin-top: 1em;
   color: #0b9fcb;
   margin-left: 2em;
 }

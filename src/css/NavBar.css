@@ -5,6 +5,12 @@
     text-decoration: none;
 }
 
+.menu_icon{
+    width: 2em;
+    height: 2em;
+    margin-right: 2em;
+}
+
 h2 .logo_color_primary{
     color: limegreen;
 }

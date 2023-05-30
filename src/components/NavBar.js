@@ -1,10 +1,14 @@
 import React from "react";
 import "../css/NavBar.css";
+import burgerIcon from '../asset/icon/burger_icon.svg'
 import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
     <nav className="nav_container">
+      <NavLink to="/" className="home_link">
+        <img src={burgerIcon} alt="menu icon" className="menu_icon" />
+      </NavLink>
       <NavLink to="/" className="home_link">
         <h2 className="logo_heading">
           <span className="logo_color_primary">Faster </span>

@@ -1,0 +1,20 @@
+.industry_card_container{
+    display: flex;
+    overflow-x: scroll;
+    gap: 2em;
+    margin-bottom: 2em;
+    margin-top: 2m;
+}
+
+::-webkit-scrollbar{
+    display: none; 
+}
+
+.services_middle_container{
+    text-align: center;
+    margin-top: 3em;
+}
+
+.services_middle_title{
+    color: #0b9fcb;
+}

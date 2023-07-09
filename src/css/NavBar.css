@@ -1,60 +1,102 @@
-.logo_heading{
-    font-size: 1.5em;
-    margin: 0%;
-    font-weight: 500;
-    text-decoration: none;
-}
+  h2 .logo_color_primary {
+    color: #32cd32;
+  }
 
-h2 .logo_color_primary{
-    color: limegreen;
-}
+  h2 .logo_color_secondory {
+    color: #0a95cc;
+  }
 
-h2 .logo_color_secondory{
-    color: rgb(11, 149, 203);
-}
-
-.nav_container{
-    display: flex;
-    position: sticky;
-    top: 0px;
-    background-color: white;
-    align-items: center;
-    padding-left:0.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    box-shadow: 0.5em 0.1em 0.5em 0.1em rgb(215, 213, 213);
-}
-
-.nav_item_container{
-    padding-left: 4em;
-}
-
-.nav_item_container .nav_item{
+  .nav_item_container .nav_item {
     list-style-type: none;
     display: inline;
     padding-right: 4em;
-}
+  }
 
-.nav_item_container .nav_item .link{
+  .nav_item_container .nav_item .link {
     text-decoration: none;
     color: limegreen;
     font-weight: 400;
-}
+  }
 
-.nav_item_container .nav_item .link:hover{
+  .nav_item_container .nav_item .link:hover {
     text-decoration: none;
     color: rgb(11, 149, 203);
     font-weight: 400;
-}
+  }
 
-.home_link{
+  .home_link {
     text-decoration: none;
-}
+  }
 
-.home_link .logo_color_secondory:hover{
+  .home_link .logo_color_secondory:hover {
     color: limegreen;
-}
+  }
 
-.home_link .logo_color_primary:hover{
-    color: rgb(11, 149, 203)
-}
+  .home_link .logo_color_primary:hover {
+    color: rgb(11, 149, 203);
+  }
+
+  @media (min-width: 901px) {
+    .nav_container {
+        display: flex;
+        position: sticky;
+        top: 0px;
+        background-color: white;
+        align-items: center;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        box-shadow: 0.5em 0.1em 0.5em 0.1em rgb(215, 213, 213);
+      }
+
+      .logo_heading {
+        font-size: 1.5em;
+        margin: 0%;
+        font-weight: 500;
+        text-decoration: none;
+      }
+
+      .menu_icon {
+        width: 1.5em;
+        height: 1.5em;
+        margin-right: 1.5em;
+      }
+
+      .nav_item_container {
+        padding-left: 4em;
+      }
+  }
+
+  @media (max-width: 600px) {
+    .nav_container {
+        display: flex;
+        position: sticky;
+        top: 0px;
+        background-color: white;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        box-shadow: 0.5em 0.1em 0.5em 0.1em rgb(215, 213, 213);
+      }
+
+    .nav_container .nav_item_container .nav_item{
+        display: none;
+      }
+
+      .logo_heading {
+        font-size: 1em;
+        margin: 0%;
+        font-weight: 500;
+        text-decoration: none;
+      }
+
+      .menu_icon {
+        width: 1em;
+        height: 1em;
+        margin-right: 1em;
+      }
+
+
+
+
+  }

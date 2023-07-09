@@ -1,0 +1,13 @@
+.about_industries_containetr{
+    margin-top: 5em;
+}
+
+.industries_list{
+    margin-top: 2em;
+    display: flex;
+    margin-left: 7em;
+    margin-right: 4em;
+    margin-bottom: 6em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

@@ -11,6 +11,7 @@
 
 .footer_link_container .footer_links .footer_link{
     list-style: none;
+    margin-top: 0.7em;
 }
 
 .footer_link_container .footer_links .footer_link .footer_nav_link{

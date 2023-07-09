@@ -1,0 +1,60 @@
+.about_intro_card {
+  margin-top: 3em;
+  margin-left: 10em;
+  margin-right: 10em;
+  border-radius: 1em;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0.5em 0.5em 1em 0.1em rgb(215, 213, 213);
+}
+.about_intro_card_description {
+  margin-left: 2em;
+  margin-right: 0.5em;
+}
+
+.btn_explore {
+  margin-left: 2em;
+  margin-top: 3em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: rgb(11, 159, 203);
+  border: none;
+  border-radius: 2em;
+  color: white;
+  background: rgb(50, 255, 50);
+  background: linear-gradient(
+    120deg,
+    rgba(50, 255, 50, 1) 0%,
+    rgba(11, 159, 203, 1) 100%
+  );
+}
+
+.btn_explore:hover {
+  margin-left: 2em;
+  margin-top: 3em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: rgb(11, 159, 203);
+  border: none;
+  border-radius: 2em;
+  color: white;
+  background: rgb(11, 159, 203);
+  background: linear-gradient(
+    120deg,
+    rgba(11, 159, 203, 1) 0%,
+    rgba(50, 255, 50, 1) 100%
+  );
+}
+
+.about_card_image {
+  height: 20em;
+  width: 15em;
+  object-fit: cover;
+  margin: 0.5em;
+  border-radius: 0.5em;
+}

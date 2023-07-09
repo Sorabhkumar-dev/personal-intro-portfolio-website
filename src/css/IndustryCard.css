@@ -1,0 +1,18 @@
+.industry_icon {
+  width: 10em;
+  height: 10em;
+  margin-top: 3em;
+}
+
+.service_industry_card_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.industry_name {
+  margin-top: 1em;
+  color: #0b9fcb;
+  margin-left: 2em;
+}

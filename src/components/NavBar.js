@@ -17,25 +17,21 @@ export default function NavBar() {
       </NavLink>
       <ul className="nav_item_container">
         <li className="nav_item">
-          {" "}
           <NavLink to="about" className="link">
             About
           </NavLink>
         </li>
         <li className="nav_item">
-          {" "}
           <NavLink to="services" className="link">
             Services
           </NavLink>
         </li>
         <li className="nav_item">
-          {" "}
           <NavLink to="education" className="link">
             Education
           </NavLink>
         </li>
         <li className="nav_item">
-          {" "}
           <NavLink to="contact" className="link">
             Contact
           </NavLink>
